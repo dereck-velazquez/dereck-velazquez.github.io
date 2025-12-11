@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac Sign Converter</title>
+    <link rel ="stylesheet" href="zodiac-converter.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Zodiac Sign Converter</h1>
+        <div class="app-description">
+            <p>This converter turns a birthday (MM/DD) into a Zodiac sign.</p>
+            <p>Zodiac signs are used in astrology to represent personality traits and characteristics based on the position of celestial bodies at the time of one's birth.</p>
+
+        </div>
+        <div class="input-group">
+            <input type="text" id="inputString" placeholder="Enter birthday (MM/DD)">
+        </div>
+        <div class="button-group">
+            <button id="verbalize" onclick="verbalize()">Convert</button>
+            <button id="randomBirthday" onclick="generateRandomBirthday()">Random Zodiac</button>
+            <button id="clearZodiac" onclick="clearZodiac()">Clear</button>
+        </div>
+        <div class="result-group">
+            <h2>Zodiac Result:</h2>
+            <div id="zodiacResult"></div>
+        </div>
+    </div>
+    <script src="zodiac-converter.js"></script>
+</body>
+</html>
