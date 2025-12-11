@@ -1,1 +1,0 @@
-# dereck-velazquez.github.io
